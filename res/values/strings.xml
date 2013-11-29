@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EduMedia</string>
+    
+    <!-- 播放器 -->
+    <string name="player_volume_controler_title">音量调节</string>
+    <string name="player_brightness_controler_title">亮度调节</string>
+    <string name="return_btn">返回</string>
+    
+    
+    <!-- 错误提示 -->
+    <string name="httpError">连接失败</string>
+    <string name="httpIsNull">没有网络</string>
+    
+    <!-- 登陆页 -->
+    <string name="login">登陆</string>
+    
+    <!-- 播放器页面 -->
+    <string name="back">返回</string>
+    
+</resources>

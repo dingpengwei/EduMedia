@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="transActivity" parent="android:Theme.Translucent.NoTitleBar">
+		<item name="android:windowBackground">
+			@color/dialog_back 
+		</item>
+	</style>
+</resources>

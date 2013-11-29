@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="43.0dip"
+	android:gravity="center_vertical"
+	android:background="@drawable/player_titlebar_bg"
+	>
+	<!-- back -->
+	<Button 
+		android:id="@+id/bt_media_title_back" 
+		android:layout_width="62.0dip" 
+		android:layout_height="30.0dip"
+		android:layout_alignParentLeft="true" 
+		android:layout_centerVertical="true" 
+		android:textSize="17.0sp" 
+		android:textColor="@color/white"
+		android:background="@drawable/button_back_bg"
+		android:text="@string/return_btn"
+		android:layout_marginLeft="5.0dip" 
+		/>
+	
+	<!-- time -->
+	<TextView 
+		android:id="@+id/tv_media_title_time" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="10.0dip"
+		android:layout_toRightOf="@id/bt_media_title_back"
+		android:textSize="17.0sp" 
+		android:textColor="@color/white"
+		android:gravity="center" 
+		android:layout_gravity="center_horizontal"
+		/>
+	<!-- name -->
+	<TextView 
+		android:id="@+id/tv_media_title_name"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true" 
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="10.0dip"
+		android:layout_marginRight="10.0dip"
+		android:textSize="17.0sp" 
+		android:textColor="@color/white"
+		android:ellipsize="end" 
+		android:gravity="center" 
+		android:singleLine="true" 
+		/>
+	<!-- screen -->
+	<Button 
+		android:id="@+id/bt_media_title_screen"
+		android:layout_width="28.0dip" 
+		android:layout_height="28.0dip"
+		android:layout_centerVertical="true" 
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10.0dip"
+		android:background="@drawable/btn_player_switch_fullscreen"
+		/>
+
+</RelativeLayout>
